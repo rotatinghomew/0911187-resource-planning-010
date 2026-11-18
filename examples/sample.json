@@ -1,20 +1,9 @@
 [
-  {
-    "id": "sample-1",
-    "period": "2026-S1",
-    "group": "A",
-    "value": 2
-  },
-  {
-    "id": "sample-2",
-    "period": "2026-S1",
-    "group": "A",
-    "value": null
-  },
-  {
-    "id": "sample-3",
-    "period": "2026-S2",
-    "group": "B",
-    "value": 4
-  }
+  {"id":"req-1","kind":"request","period":"2026-Fall","resource":"method-course","student_id":"s-01","stage":"first-year"},
+  {"id":"req-2","kind":"request","period":"2026-Fall","resource":"method-course","student_id":"s-02","stage":"second-year"},
+  {"id":"wait-3","kind":"booking","period":"2026-Fall","resource":"lab-slot","student_id":"s-03"},
+  {"id":"cancel-2","kind":"cancel","period":"2026-Fall","resource":"method-course","student_id":"s-02"},
+  {"id":"capacity-1","kind":"capacity","period":"2026-Fall","resource":"method-course","slots":1},
+  {"id":"served-1","kind":"served","period":"2026-Fall","resource":"method-course","student_id":"s-01"},
+  {"id":"plan-1","kind":"plan","period":"2026-Fall","resource":"method-course","slots":2}
 ]
